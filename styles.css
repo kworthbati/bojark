@@ -1,0 +1,67 @@
+body {
+    background-color: #B1B2FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.addbg {
+    background-image: url("images/24.jpg");
+    height: 660px;
+    background-size: cover;
+}
+
+#top h1 {
+    color: white;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    font-size: 4rem;
+}
+
+#top h2 {
+    font-family: 'Noto Serif Gujarati', serif;
+    letter-spacing: 1.4px;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+#middle {
+    background-color: #AAC4FF;
+}
+
+#features h1 {
+    color: #fbfcff;
+    padding: 20px;
+}
+
+.card {
+    max-width: 380px;
+    margin: auto;
+}
+
+#whoarewem {
+    background-color: #AAC4FF;
+}
+
+.card-body h3 {
+    padding: 1rem;
+}
+
+
+.card-body a {
+    padding: 1rem;
+}
+
+/* font-family: 'Noto Serif Gujarati', serif;
+font-family: 'Poppins', sans-serif; */
+
+@media (max-width: 618px) {
+    #top h1 {
+        line-height: normal;
+    }
+}
